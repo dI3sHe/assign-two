@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+body{
+    
+    background-color: #E5E5E5;
+    width: 1300px;
+    
+}
+main{
+    background-color: white;
+    width: 1200px;
+    margin-left: 80px;  
+    
+}
+#intro-title
+{
+    background-color: white;
+    width: 1000px;
+    
+    margin-top: 0px;
+    margin-left: 80px;    
+}
+
+.intro-container{
+    width: 1200px;
+    height: 300px;
+   margin-left: 80px;
+   display: flex;
+   
+
+}
+.intro-image{
+    margin-left: 30px;
+}
+
+#intro-title{
+    
+        font-family: 'Dongle', sans-serif;
+        font-size: 30px;
+        
+    }
+
+
+#intro{
+    
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    width: 800px;
+    
+}
+#intro-details{
+    margin-top: 0px;
+    
+}
+#intro-browse{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(243, 52, 84);
+    border-radius: 30px;
+    color: white;
+    
+}
+#intro-img{
+border-radius: 150px;
+}
+.productsec-title{
+    margin-left: 460px;
+}
+#product-title{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+}
+.productdetails-container{
+    border-color: tomato;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    grid-gap: 20px;
+    background-color: rgb(192, 190, 190);
+    
+}
+
+.productdetails{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; 
+    
+    
+}
+.product-info{
+    background-color: white;
+}
+.productimage-container{
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#product-image{
+    width: 250px;
+    height: 190px;
+    border-radius: 15px;
+}
+.productinfo-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.moreprodict-info{
+    width: 200px;
+    margin-left: 850px;
+}
+.end-footer{
+    margin-top: 0%;
+    width: 1200px;
+    height: 150px;
+    margin-left: 80px;
+    background-color: rgb(71, 71, 71);
+}
+.contactinfo-container{
+    margin-left: 540px;
+}
+
+#contact-info{
+    align-items: center;
+    width:25px;
+    height: 25px;
+    border-radius: 20px;
+}
+@media only screen and (max-width:320px){
+    body{
+        width: 320px;
+    }
+    main,footer{
+        width: 300px;
+    }
+    .productdetails{
+        grid-template-columns: repeat(1,1fr);;
+    }
+    
+}
